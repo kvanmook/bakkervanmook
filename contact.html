@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta content="Bakker van Mook" charset="utf-8">
+<title>Bakker van Mook</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+<body>
+<header>
+  <p>
+    <img src=afbeeldingen/logo.png width="400px" height="150px"><br><br>
+    MENU <br>
+    <button type="button" class="button" onclick="window.location.href='index.html'">Home</button>
+    <button type="button" class="button" onclick="window.location.href='mijncv.html'">Mijn CV</button>
+    <button type="button" class="button" onclick="window.location.href='contact.html'">Contact</button>
+  </p>
+</header>
+
+<p>
+  <form id="contactform" action="https://formspree.io/f/xeqnyqla." target="_blank" method="post">
+    <table>
+      <caption><b>Contact</b></caption>
+      <tr>
+        <td>Voornaam:</td>
+        <td><input type="text" name="Voornaam" placeholder="Voornaam" class="input"></td>
+      </tr>
+      <tr>
+        <td>Achternaam:</td>
+        <td><input type="text" name="Achternaam" placeholder="Achternaam" class="input"></td>
+      </tr>
+      <tr>
+        <td>Email:</td>
+        <td><input type="email" name="Email" placeholder="Emailadres" class="input"></td>
+      </tr>
+      <tr>
+        <td>Bericht:</td>
+        <td><textarea name="Bericht" placeholder="Bericht" maxlenght="1500" class="input"></textarea></td>
+      </tr>
+      <tr>
+        <td><input type="submit" class="button2" value="Verstuur"></td>
+        <td></td>
+      </tr>
+    </table>
+  </form>
+</p>
+
+
+<footer>
+  <p class="footertekst">
+  Bakker van Mook - © 2022
+  </p>
+
+</body>
+</html>
